@@ -7,15 +7,18 @@
     h1 {font-size: 50px;}
     h1 {color:yellow;}
     h2 {color:yellow;}
-    div {col-xs-20 col-xs-offset-1}
-    div {col-sm-20 col-sm-offset-1}
-    div {col-md-20 col-md-offset-1}
-    div {col-lg-20 col-lg-offset-1}
     
-    div {col-xs-10 col-xs-offset-1}
-    div {col-sm-10 col-sm-offset-1}
-    div {col-md-10 col-md-offset-1}
-    div {col-lg-10 col-lg-offset-1}
+    /* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-min) { 20 }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) and (max-width: @screen-md-min) { 20 }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) and (max-width: @screen-lg-min) { 20 }
   </style>
   <body style="background-color:#e6ccff">
     <div class="row">
